@@ -1,0 +1,14 @@
+blockquote {
+    margin: 0;
+    background: #F0F0F1;
+    color: #333334;
+    padding: 20px 30px;
+    position: relative;
+    border-left: 35px solid #DFDEDE;
+    font-family: Times New Roman, serif;
+}
+
+.contacts{
+    flex: 1 0 auto;
+    text-align: center;
+}
