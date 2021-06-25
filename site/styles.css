@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Mouser Outline';
+    src: url('/fonts/mouser_outline.eot'); /* IE 9 Compatibility Mode */
+    src: url(' /fonts/mouser_outline.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('/fonts/mouser_outline.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/fonts/mouser_outline.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('/fonts/mouser_outline.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('/fonts/mouser_outline.svg#mouser_outline') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+.heading  {
+     font-family: 'Mouser Outline', "Times New Roman", serif;
+}
+
+header {
+    background: linear-gradient(to top, #FEFFFF, #CCCCFF);
+}
+
+.heading h1{
+    font-family: georgia, Garamond, serif;
+}
+
+ .nav {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333;
+ }
+
+ .nav a {
+     float: left;
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+ }
+
+ .nav a:hover {
+     background-color: #dddddd;
+     color: black;
+ }
+
+.heading p{
+    font-family: "Courier New", monospace;
+    color: blue;
+}
+
+ .pic {
+     float: right;
+     margin: 10px 0 5px 5px;
+ }
+
+ .pic figcaption {
+     margin: 0 auto 5px;
+     text-align: center;
+ }
+
+ blockquote {
+     margin: 0;
+     background: #F0F0F1;
+     color: #333334;
+     padding: 20px 30px;
+     position: relative;
+     border-left: 35px solid #DFDEDE;
+     font-family: Times New Roman, serif;
+ }
+
+ .cloud {
+     position: relative;
+     white-space: normal;
+     display: block;
+     text-align: left;
+     width: 300px;
+     height: 150px;
+     line-height: 30px;
+     border: 3px solid #666;
+     border-radius: 30px;
+     box-shadow: 2px 2px 4px #888;
+     background: linear-gradient(to top, rgba(192, 192, 192, 0.5), rgba(254, 255, 255, 0.9)
+     );
+     padding-top: 10px;
+     padding-left: 5px;
+ }
+
+ .cloud:before {
+     content: ' ';
+     position: absolute;
+     width: 0;
+     height: 0;
+     left: 30px;
+     top: 160px;
+     border: 25px solid;
+     border-color: #666 transparent transparent #666;
+ }
+
+ .cloud:after {
+     content: ' ';
+     position: absolute;
+     width: 0;
+     height: 0;
+     left: 34px;
+     top: 160px;
+     border: 20px solid;
+     border-color: rgba(254, 255, 255, 0.8) transparent transparent rgba(254, 255, 255, 0.8);
+ }
+
+ .cloud:hover{
+     transform: translate(-2px, -2px);
+     box-shadow: 4px 4px 4px #888;
+ }
+
+ .cloud div:hover{
+     text-shadow: darkgray 2px 2px 4px;
+ }
+
+.date{
+    text-align: right;
+    color: blue;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+ .round {
+     border-radius: 43px;
+ }
+
+ .avatar{
+     padding-top: 50px;
+ }
+
